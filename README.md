@@ -25,6 +25,7 @@ targets 'virt' machine type on QEMU
 ## edit mode commands
 
 * word = 32 bytes
+
 `q` : exit edit mode
 
 `p` : print current 0x10 bytes at current address
