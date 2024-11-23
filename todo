@@ -1,0 +1,9 @@
+[x] exception handling
+[x] wait for uart int to save energy
+[x] review code
+
+- rw cmd: add sector and addr as parameters
+
+- editor
+- as
+

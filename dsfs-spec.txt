@@ -1,0 +1,10 @@
+alvin's dead-simple filesystem
+
+single file on single block.
+
+e.g. if blksize is 0x200
+0x0~0x1 file size
+0x10~0x200 file content.
+
+EOF = 0xa 0xd
+
