@@ -10,13 +10,13 @@ targets 'virt' machine type on QEMU
 
 `s <addr: u32, value: u32>` : scan. write `value` at address `addr`
 
-`r <sector: u8>` : read from a sector and write to addr
+`r <sector: u8>` : read from a sector and write to addr 0x50005000
 
-`w <sector: u8>` : write to a sector from addr
+`w <sector: u8>` : write to a sector from addr 0x50005000
 
-`x <addr: u32>` : execute code beginning from addr
+`x` : execute code beginning from addr 0x50005000
 
-`e <addr: u32>` : enter edit mode
+`e <addr: u32>` : enter edit mode at addr 0x50005000
 
 ^c(end of text) to discard command currently typing
 
